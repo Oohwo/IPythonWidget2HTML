@@ -1,0 +1,50 @@
+
+<html>
+  <head>
+
+    <titleIPython Widgets to HTML</title>
+
+    <link rel="stylesheet" href="css/pico.min.css"
+    
+    <!-- Load RequireJS, used by the IPywidgets for dependency management -->
+    <script 
+      src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js" 
+      integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" 
+      crossorigin="anonymous">
+    </script>
+
+    <!-- Load IPywidgets bundle for embedding. -->
+    <script
+      data-jupyter-widgets-cdn="https://cdn.jsdelivr.net/npm/"
+      src="https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js" 
+      crossorigin="anonymous">
+    </script>
+
+    <!-- The state of all the widget models on the page -->
+    <script type="application/vnd.jupyter.widget-state+json">
+      {"version_major": 2, "version_minor": 0, "state": {"17d8a91b56a14452beffe9e0cebc2f0e": {"model_name": "LayoutModel", "model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "state": {}}, "5dfc26a190b5453497787bcc941ac0b2": {"model_name": "SliderStyleModel", "model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "state": {}}, "855d44d644074ab4862c1458f3916aa3": {"model_name": "IntSliderModel", "model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "state": {"_dom_classes": [], "layout": "IPY_MODEL_17d8a91b56a14452beffe9e0cebc2f0e", "max": 200, "style": "IPY_MODEL_5dfc26a190b5453497787bcc941ac0b2", "value": 100}}, "c5e3c8ab37af4d71be694458f7c4e3bf": {"model_name": "LayoutModel", "model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "state": {}}, "22a90bf5bb0c4c32ade2ddb6b441371c": {"model_name": "SliderStyleModel", "model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "state": {}}, "54ea22709f264fbda0d160b4fbe99dc5": {"model_name": "IntSliderModel", "model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "state": {"_dom_classes": [], "layout": "IPY_MODEL_c5e3c8ab37af4d71be694458f7c4e3bf", "style": "IPY_MODEL_22a90bf5bb0c4c32ade2ddb6b441371c", "value": 40}}, "bb7ad00ad2dd44018d8d1dc9468e84d7": {"model_name": "LayoutModel", "model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "state": {}}, "9e5caa2e5a414363a7e86dbd7c84a865": {"model_name": "SliderStyleModel", "model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "state": {}}, "81cf509666474516aad6fd0ac3823f25": {"model_name": "IntSliderModel", "model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "state": {"_dom_classes": [], "layout": "IPY_MODEL_bb7ad00ad2dd44018d8d1dc9468e84d7", "max": 200, "style": "IPY_MODEL_9e5caa2e5a414363a7e86dbd7c84a865", "value": 100}}, "ae4b10e7a4254e02a4c8fd88ed389d33": {"model_name": "LayoutModel", "model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "state": {}}, "baa903e8aa284930a9fe5ff6ca20f755": {"model_name": "SliderStyleModel", "model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "state": {}}, "a06a79598ec846f59438b9534f8d1633": {"model_name": "IntSliderModel", "model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "state": {"_dom_classes": [], "layout": "IPY_MODEL_ae4b10e7a4254e02a4c8fd88ed389d33", "style": "IPY_MODEL_baa903e8aa284930a9fe5ff6ca20f755", "value": 40}}}}
+    </script>
+  </head>
+
+  <body>
+
+    <h1>Widget export</h1>
+
+    <div id="first-slider-widget">
+      <!-- This script tag will be replaced by the view's DOM tree -->
+      <script type="application/vnd.jupyter.widget-view+json">
+        {"version_major": 2, "version_minor": 0, "model_id": "81cf509666474516aad6fd0ac3823f25"}
+      </script>
+    </div>
+
+    <hrule />
+
+    <div id="second-slider-widget">
+      <!-- This script tag will be replaced by the view's DOM tree -->
+      <script type="application/vnd.jupyter.widget-view+json">
+        {"version_major": 2, "version_minor": 0, "model_id": "a06a79598ec846f59438b9534f8d1633"}
+      </script>
+    </div>
+
+  </body>
+</html>
